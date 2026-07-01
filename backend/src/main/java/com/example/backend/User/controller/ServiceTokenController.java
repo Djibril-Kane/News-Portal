@@ -1,4 +1,4 @@
-package com.example.backend.User.controller;
+package com.example.backend.user.controller;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.backend.User.dto.CreateServiceTokenRequest;
-import com.example.backend.User.dto.ServiceTokenResponse;
-import com.example.backend.User.service.ServiceTokenService;
+import com.example.backend.user.dto.CreateServiceTokenRequest;
+import com.example.backend.user.dto.ServiceTokenResponse;
+import com.example.backend.user.service.ServiceTokenService;
 
 import lombok.RequiredArgsConstructor;
 

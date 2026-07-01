@@ -1,4 +1,4 @@
-package com.example.backend.User.dto;
+package com.example.backend.user.dto;
 
 import java.time.LocalDateTime;
 

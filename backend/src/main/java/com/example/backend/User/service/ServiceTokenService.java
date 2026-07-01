@@ -1,4 +1,4 @@
-package com.example.backend.User.service;
+package com.example.backend.user.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 
 import com.example.backend.exception.BadRequestException;
-import com.example.backend.User.dto.CreateServiceTokenRequest;
-import com.example.backend.User.dto.ServiceTokenResponse;
-import com.example.backend.User.entity.ServiceToken;
-import com.example.backend.User.repository.ServiceTokenRepository;
+import com.example.backend.user.dto.CreateServiceTokenRequest;
+import com.example.backend.user.dto.ServiceTokenResponse;
+import com.example.backend.user.entity.ServiceToken;
+import com.example.backend.user.repository.ServiceTokenRepository;
 
 import lombok.RequiredArgsConstructor;
 

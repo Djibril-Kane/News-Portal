@@ -1,4 +1,4 @@
-package com.example.backend.Auth.security;
+package com.example.backend.auth.security;
 
 import java.util.Date;
 import java.util.function.Function;

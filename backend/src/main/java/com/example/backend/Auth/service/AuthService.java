@@ -1,14 +1,14 @@
-package com.example.backend.Auth.service;
+package com.example.backend.auth.service;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.backend.Auth.dto.AuthResponse;
-import com.example.backend.Auth.dto.LoginRequest;
-import com.example.backend.Auth.entity.User;
+import com.example.backend.auth.dto.AuthResponse;
+import com.example.backend.auth.dto.LoginRequest;
+import com.example.backend.auth.entity.User;
+import com.example.backend.auth.repository.UserRepository;
+import com.example.backend.auth.security.JwtService;
 import com.example.backend.exception.BadRequestException;
-import com.example.backend.Auth.repository.UserRepository;
-import com.example.backend.Auth.security.JwtService;
 
 import lombok.RequiredArgsConstructor;
 

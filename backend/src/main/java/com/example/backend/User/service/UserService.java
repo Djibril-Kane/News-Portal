@@ -1,16 +1,16 @@
-package com.example.backend.User.service;
+package com.example.backend.user.service;
 
 import java.util.List;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.backend.Auth.entity.User;
+import com.example.backend.auth.entity.User;
+import com.example.backend.auth.repository.UserRepository;
 import com.example.backend.exception.BadRequestException;
-import com.example.backend.Auth.repository.UserRepository;
-import com.example.backend.User.dto.CreateUserRequest;
-import com.example.backend.User.dto.UpdateUserRequest;
-import com.example.backend.User.dto.UserResponse;
+import com.example.backend.user.dto.CreateUserRequest;
+import com.example.backend.user.dto.UpdateUserRequest;
+import com.example.backend.user.dto.UserResponse;
 
 import lombok.RequiredArgsConstructor;
 

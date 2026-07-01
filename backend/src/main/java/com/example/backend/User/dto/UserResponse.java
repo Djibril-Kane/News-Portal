@@ -1,6 +1,6 @@
-package com.example.backend.User.dto;
+package com.example.backend.user.dto;
 
-import com.example.backend.Auth.entity.User;
+import com.example.backend.auth.entity.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
