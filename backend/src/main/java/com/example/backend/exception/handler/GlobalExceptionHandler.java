@@ -1,9 +1,11 @@
-package com.example.backend.Auth.exception;
+package com.example.backend.exception.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.example.backend.exception.BadRequestException;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
@@ -15,5 +17,5 @@ public class GlobalExceptionHandler {
     public ResponseEntity<String> handleBadException(BadRequestException e) {
         return handleException(e, HttpStatus.BAD_REQUEST);
     }
-    
+
 }

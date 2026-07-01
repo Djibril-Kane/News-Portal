@@ -1,4 +1,4 @@
-package com.example.backend.Auth.controller;
+package com.example.backend.auth.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.backend.Auth.dto.AuthResponse;
-import com.example.backend.Auth.dto.LoginRequest;
-import com.example.backend.Auth.service.AuthService;
+import com.example.backend.auth.dto.AuthResponse;
+import com.example.backend.auth.dto.LoginRequest;
+import com.example.backend.auth.service.AuthService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
