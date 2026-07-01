@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import com.example.backend.Auth.dto.AuthResponse;
 import com.example.backend.Auth.dto.LoginRequest;
 import com.example.backend.Auth.entity.User;
-import com.example.backend.Auth.exception.BadRequestException;
+import com.example.backend.exception.BadRequestException;
 import com.example.backend.Auth.repository.UserRepository;
 import com.example.backend.Auth.security.JwtService;
 
