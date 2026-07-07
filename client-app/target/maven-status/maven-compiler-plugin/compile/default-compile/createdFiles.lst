@@ -1,0 +1,5 @@
+com\example\client\model\RemoteUser.class
+com\example\client\Main.class
+com\example\client\SoapClient$AuthResult.class
+com\example\client\SoapClient$SoapFaultException.class
+com\example\client\SoapClient.class

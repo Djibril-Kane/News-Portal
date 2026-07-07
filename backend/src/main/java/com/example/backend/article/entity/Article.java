@@ -36,8 +36,10 @@ public class Article {
     @Column(nullable = false, length = 500)
     private String resume;
 
+    // columnDefinition force LONGTEXT : sans ca Hibernate mappe @Lob sur TINYTEXT (255 caracteres max),
+    // ce qui fait planter l'insertion des que le contenu d'un article depasse cette limite
     @Lob
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "LONGTEXT")
     private String contenu;
 
     @Column(nullable = false)

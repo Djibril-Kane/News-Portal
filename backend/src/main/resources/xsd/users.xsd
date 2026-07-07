@@ -6,7 +6,6 @@
 
     <xs:simpleType name="role">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="VISITEURS"/>
             <xs:enumeration value="EDITEURS"/>
             <xs:enumeration value="ADMINS"/>
         </xs:restriction>

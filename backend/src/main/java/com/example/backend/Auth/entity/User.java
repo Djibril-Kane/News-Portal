@@ -39,6 +39,6 @@ public class User {
     private Role role;
 
     public enum Role {
-        VISITEURS, EDITEURS, ADMINS
+        EDITEURS, ADMINS
     }
 }
