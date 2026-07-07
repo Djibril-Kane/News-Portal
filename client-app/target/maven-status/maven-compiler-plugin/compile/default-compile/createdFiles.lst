@@ -1,5 +1,8 @@
+com\example\client\ui\LoginFrame.class
 com\example\client\model\RemoteUser.class
-com\example\client\Main.class
+com\example\client\ui\MainFrame$1.class
+com\example\client\ui\MainFrame.class
 com\example\client\SoapClient$AuthResult.class
-com\example\client\SoapClient$SoapFaultException.class
 com\example\client\SoapClient.class
+com\example\client\Main.class
+com\example\client\SoapClient$SoapFaultException.class
